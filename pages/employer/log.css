@@ -1,0 +1,223 @@
+
+
+.container{
+  display: flex;
+padding: 230px;}
+body{
+  
+  font-family: "Roboto,Helvetica,Arial,sans-serif";
+  background-color: #f5f5f5;   
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+
+}
+.page1{
+  width: 300px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 50px auto ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+}
+.page2{
+  width: 300px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 50px auto ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+}
+.modal-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+label {
+ 
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form-control{
+  text-align: center;
+  border: 2px solid #f77777;
+  box-shadow: none;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #342929;
+  background-color: #eee;
+  background-image: none;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.msg{
+  color: #f77777;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-style: solid;
+  -moz-text-decoration-style: solid;
+  list-style-type: square;
+}
+.password-help-link-pull-right{
+display: flex;
+justify-content: end;
+align-items: end;
+height: 20px;
+}
+button[type="submit"]{
+  background-color: #e60278;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+ 
+}
+.btn-block{
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  font-weight: 700;
+  -webkit-transition:all .2s ease-in-out ;
+  transition:all .2s ease-in-out ;
+  -moz-transition:all .2s ease-in-out ;
+  -ms-transition:all .2s ease-in-out ;
+  -o-transition:all .2s ease-in-out ;
+
+}
+.btn-warning{
+  color: #fff;
+  background-color: #e60278;
+  border-color: #cd026b;
+  
+}
+.list-check{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  color: #666;
+  content: "";
+  font-family: "FontAwesome";
+  padding-right: 10px;
+  list-style-type: disc;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 2px solid #5a6881;
+}
+
+.header__row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  margin: 0px 60px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__logo a {
+  text-decoration: none;
+  color: #5a6881;
+}
+
+.header__logo a:hover {
+  color: #000;
+  transition: 300ms ease;
+}
+
+.header__logo img {
+  width: 180px;
+}
+
+.header__btn button a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: #ffffff;
+}
+
+.header__btn .login {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 8px 20px;
+  margin-left: 8px;
+  border: none;
+  color: #4964e9;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #4964e9;
+}
+
+.header__btn .login:hover {
+  background-color: #dedee0;
+  transition: 300ms;
+  color: #000;
+}
+
+.header__btn .employer {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #4964e9;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.header__btn .employer:hover {
+  color: #000;
+  transition: 300ms;
+}
+
+
+
+

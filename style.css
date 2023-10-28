@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 2px solid #5a6881;
+}
+
+.header__row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  margin: 0px 60px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__logo a {
+  text-decoration: none;
+  color: #5a6881;
+}
+
+.header__logo a:hover {
+  color: #000;
+  transition: 300ms ease;
+}
+
+.header__logo img {
+  width: 180px;
+}
+
+.header__btn button a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: #ffffff;
+}
+
+.header__btn .login {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 8px 20px;
+  margin-left: 8px;
+  border: none;
+  color: #4964e9;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #4964e9;
+}
+
+.header__btn .login:hover {
+  background-color: #dedee0;
+  transition: 300ms;
+  color: #000;
+}
+
+.header__btn .employer {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #4964e9;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.header__btn .employer:hover {
+  color: #000;
+  transition: 300ms;
+}
+
+
+
